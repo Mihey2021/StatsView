@@ -3,6 +3,11 @@
     <declare-styleable name="StatsView">
         <attr name="textSize" format="dimension|reference" />
         <attr name="lineWidth" format="dimension|reference" />
+        <attr name="animationType" format="enum">
+            <enum name ="parallel" value = "0"/>
+            <enum name ="sequential" value = "1"/>
+        </attr>
+        <attr name="totalSum" format="float" />
         <attr name="color1" format="color|reference" />
         <attr name="color2" format="color|reference" />
         <attr name="color3" format="color|reference" />
